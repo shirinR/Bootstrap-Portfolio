@@ -6,13 +6,6 @@ body {
     background-image: url("../image/concrete_seamless.png");
 }
 
-@media screen and (min-width: 450px) {
-    body{
-        background-color: #333;
-    }
-
-}
-
 * {
     box-sizing: border-box;
 }
@@ -44,15 +37,12 @@ h6 {
 }
 
 .header-links {
-    /*float: right;*/
-    list-style: none;
     padding: 0;
     margin: 0;
     padding: 32px 0
 }
 
 .header-links li {
-    /*float: left;*/
     padding: 0 25px;
     border-left: 1px solid #dedede;
 }
@@ -68,7 +58,6 @@ h6 {
 .header-links li a {
     color: #777;
     font-size: 18px;
-    text-decoration: none;
 }
 
 .container {
@@ -170,7 +159,6 @@ h6 {
     list-style: none;
     padding: 0;
     margin: 0;
-    /*display: flex;*/
 }
 
 .social-links::after {
@@ -222,16 +210,14 @@ h6 {
 }
 
 .box{
-    /*float: left;*/
     position: relative;
     width: 280px;
     height: 200px;
     margin-bottom: 40px;
-    /*margin-right: 9px;*/
 }
 .box_1, .box_3, .box_5{
     margin-right: 10px;
-    margin-left: 0;
+    margin-left: 9px;
 }
 
 .box_2, .box_4{
@@ -265,4 +251,11 @@ h6 {
     margin: 0;
     font-size: 12px;
     color: #bbb;
+}
+
+@media screen and (min-width: 450px) {
+    body{
+        background-color: #333;
+    }
+
 }
