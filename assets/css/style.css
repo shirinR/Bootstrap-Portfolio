@@ -4,12 +4,11 @@ body {
     margin: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../image/concrete_seamless.png");
+    padding-bottom: 70px;
 }
-
 * {
     box-sizing: border-box;
 }
-
 h1,
 h2,
 h3,
@@ -19,13 +18,11 @@ h6 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
 .header {
     background-color: #fff;
     border-bottom: 1px solid #ccc;
     height: 98px;
 }
-
 .header-title {
     background-color: #4aaaa5;
     color: #fff;
@@ -35,72 +32,59 @@ h6 {
     float: left;
     font-size: 25px;
 }
-
 .header-links {
     padding: 0;
     margin: 0;
     padding: 28px 0;
 }
-
 .header-links li {
     padding: 0 25px;
     border-left: 1px solid #dedede;
 }
-
 .header-links li:first-child {
     border-left: 0;
 }
-
 .header-links li:last-child {
     padding-right: 0;
 }
-
 .header-links li a {
     color: #777;
     font-size: 18px;
 }
-
-.container {
+.container-fluid {
     width: 960px;
     margin: 0 auto;
 }
-
-.container::after {
+.container-fluid::after {
     content: "";
     display: table;
     clear: both;
 }
-
 .row {
     margin-left: -20px;
     margin-right: -20px;
 }
-
 .col {
     float: left;
     padding-left: 20px;
     padding-right: 20px;
 }
-
 .content {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-
 .content-body {
     width: 650px;
     background-color: #fff;
     padding: 25px;
     border: 1px solid #ddd;
 }
-
 .content-body h2 {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 21px;
     font-size: 28px;
 }
-
 .content-body hr {
     background-color: #ddd;
     height: 2px;
@@ -108,24 +92,20 @@ h6 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .content-body .form-group {
     margin-bottom: 15px;
 }
-
 .content-body .form-label {
     font-size: 16px;
     margin-bottom: 5px;
     display: block;
 }
-
 .content-body .form-field {
     width: 100%;
     padding: 8px 8px;
     font-size: 14px;
     border: 1px solid #ddd;
 }
-
 .content-body .form-submit {
     background-color: #4aaaa5;
     border: 0;
@@ -133,20 +113,17 @@ h6 {
     padding: 10px 25px;
     font-size: 16px;
 }
-
 .content-sidebar {
     width: 270px;
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 25px;
-    margin-left: 40px;
+    margin-left: 36px;
 }
-
 .content-sidebar h3 {
     font-size: 22px;
     margin-left: 20px;
 }
-
 .content-sidebar hr {
     background-color: #eee;
     height: 2px;
@@ -154,27 +131,25 @@ h6 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .social-links {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 .social-links::after {
     content: "";
     display: table;
     clear: both;
 }
-
 .social-links img{
     vertical-align: baseline;
     width: 59px;
     height: 59px;
     margin:-8px 9px -27px -21px;
 }
-
 .profile_img{
+  /*width: 100%;*/
+  /*height: auto;*/
     width: 117px;
     height: 142px;
     float:left;
@@ -182,33 +157,27 @@ h6 {
     margin-bottom: 12px;
     margin-left: 7px;
   }
-
 .profile_img:hover{
     width: 128px;
     height: 159px;
 }
-
 .main_content{
     font-size: 16px;
     line-height: 22px;
 }
-
 .content_img{
     display: inline;
 }
-
 .activity_image{
     width: 280px;
     height: 200px;
     position: relative;
 }
-
 .content_img::after{
     content: "";
     display: table;
     clear: both;
 }
-
 .box{
     position: relative;
     width: 280px;
@@ -219,12 +188,10 @@ h6 {
     margin-right: 10px;
     margin-left: 9px;
 }
-
 .box_2, .box_4{
     margin-right: 0;
     margin-left: 3px;
 }
-
 .activity_title{
     position: absolute;
     background-color: #4aaaa5;
@@ -235,27 +202,17 @@ h6 {
     font-size: 15px;
     padding: 20px 5px;
 }
-
 .activity_title:hover{
   font-size: 20px;
 }
-
 .footer {
     border-top: 8px solid #4aaaa5;
     text-align: center;
     background-color: #666;
     padding: 40px 0;
 }
-
 .footer .copyright {
     margin: 0;
     font-size: 12px;
     color: #bbb;
-}
-
-@media screen and (min-width: 450px) {
-    body{
-        background-color: #333;
-    }
-
 }
